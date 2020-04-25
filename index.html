@@ -29,7 +29,7 @@
             const b = baffle('.title', {
                 characters: 'supercalifragilisticexpialidocious',
                 speed: 50
-            }).start(100).once().reveal(1000);
+            }).start(100).once(100).reveal(10000).text(text => reverse(text));
         }
     </script>
 	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
